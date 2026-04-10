@@ -43,6 +43,7 @@ def index():
     conn = connect_db()
     if not conn:
         return "Connexion à la base de données échouée !"
+print("CI/CD test OK")
 
     cur = conn.cursor()
     # Crée la table si elle n'existe pas
