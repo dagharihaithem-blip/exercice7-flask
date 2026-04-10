@@ -1,0 +1,113 @@
+2026-04-09 12:50:42,946 - Démarrage de l'application Flask
+2026-04-09 12:50:42,953 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.3:5000
+2026-04-09 12:50:42,953 - [33mPress CTRL+C to quit[0m
+2026-04-09 12:52:22,203 - Requête reçue dans Flask
+2026-04-09 12:52:22,205 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:22,217 - 172.21.0.1 - - [09/Apr/2026 12:52:22] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:23,815 - Requête reçue dans Flask
+2026-04-09 12:52:23,816 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:23,817 - 172.21.0.1 - - [09/Apr/2026 12:52:23] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:24,483 - Requête reçue dans Flask
+2026-04-09 12:52:24,486 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:24,487 - 172.21.0.1 - - [09/Apr/2026 12:52:24] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:24,664 - Requête reçue dans Flask
+2026-04-09 12:52:24,666 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:24,667 - 172.21.0.1 - - [09/Apr/2026 12:52:24] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:26,535 - Requête reçue dans Flask
+2026-04-09 12:52:26,537 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:26,538 - 172.21.0.1 - - [09/Apr/2026 12:52:26] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:27,590 - Requête reçue dans Flask
+2026-04-09 12:52:27,591 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:27,592 - 172.21.0.1 - - [09/Apr/2026 12:52:27] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:27,826 - Requête reçue dans Flask
+2026-04-09 12:52:27,827 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:27,828 - 172.21.0.1 - - [09/Apr/2026 12:52:27] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:28,025 - Requête reçue dans Flask
+2026-04-09 12:52:28,027 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:28,027 - 172.21.0.1 - - [09/Apr/2026 12:52:28] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:28,526 - Requête reçue dans Flask
+2026-04-09 12:52:28,527 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:28,528 - 172.21.0.1 - - [09/Apr/2026 12:52:28] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:28,976 - Requête reçue dans Flask
+2026-04-09 12:52:28,978 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:28,979 - 172.21.0.1 - - [09/Apr/2026 12:52:28] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:29,398 - Requête reçue dans Flask
+2026-04-09 12:52:29,401 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:29,402 - 172.21.0.1 - - [09/Apr/2026 12:52:29] "GET / HTTP/1.1" 200 -
+2026-04-09 12:52:29,574 - Requête reçue dans Flask
+2026-04-09 12:52:29,575 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:52:29,576 - 172.21.0.1 - - [09/Apr/2026 12:52:29] "GET / HTTP/1.1" 200 -
+2026-04-09 12:53:43,515 - Requête reçue dans Flask
+2026-04-09 12:53:43,518 - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 12:53:43,519 - 172.21.0.1 - - [09/Apr/2026 12:53:43] "GET / HTTP/1.1" 200 -
+2026-04-09 13:01:44,536 - INFO - Démarrage de l'application Flask
+2026-04-09 13:01:44,538 - INFO - Démarrage de l'application Flask
+2026-04-09 13:01:44,542 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.21.0.3:5000
+2026-04-09 13:01:44,542 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-09 13:03:03,231 - INFO - Requête reçue dans Flask
+2026-04-09 13:03:03,234 - ERROR - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 13:03:03,235 - INFO - 172.21.0.1 - - [09/Apr/2026 13:03:03] "GET / HTTP/1.1" 200 -
+2026-04-09 13:03:04,821 - INFO - Requête reçue dans Flask
+2026-04-09 13:03:04,822 - ERROR - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 13:03:04,823 - INFO - 172.21.0.1 - - [09/Apr/2026 13:03:04] "GET / HTTP/1.1" 200 -
+2026-04-09 13:03:05,078 - INFO - Requête reçue dans Flask
+2026-04-09 13:03:05,081 - ERROR - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 13:03:05,082 - INFO - 172.21.0.1 - - [09/Apr/2026 13:03:05] "GET / HTTP/1.1" 200 -
+2026-04-09 13:03:05,324 - INFO - Requête reçue dans Flask
+2026-04-09 13:03:05,328 - ERROR - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 13:03:05,329 - INFO - 172.21.0.1 - - [09/Apr/2026 13:03:05] "GET / HTTP/1.1" 200 -
+2026-04-09 13:07:50,764 - INFO - Requête reçue dans Flask
+2026-04-09 13:07:50,766 - ERROR - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 13:07:50,767 - INFO - 172.21.0.1 - - [09/Apr/2026 13:07:50] "GET / HTTP/1.1" 200 -
+2026-04-09 13:07:54,198 - INFO - Requête reçue dans Flask
+2026-04-09 13:07:54,199 - ERROR - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 13:07:54,200 - INFO - 172.21.0.1 - - [09/Apr/2026 13:07:54] "GET / HTTP/1.1" 200 -
+2026-04-09 13:07:54,604 - INFO - Requête reçue dans Flask
+2026-04-09 13:07:54,605 - ERROR - Erreur connexion DB: connection to server at "db" (172.21.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-09 13:07:54,606 - INFO - 172.21.0.1 - - [09/Apr/2026 13:07:54] "GET / HTTP/1.1" 200 -

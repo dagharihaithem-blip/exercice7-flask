@@ -1,0 +1,28 @@
+services:
+  flask-app:
+    build: .
+    container_name: flask-app
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: flask-db
+      DB_NAME: flaskdb
+      DB_USER: flaskuser
+      DB_PASS: flaskpassword
+    depends_on:
+      - flask-db
+
+  flask-db:
+    image: postgres:15
+    container_name: flask-db
+    environment:
+      POSTGRES_DB: flaskdb
+      POSTGRES_USER: flaskuser
+      POSTGRES_PASSWORD: flaskpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

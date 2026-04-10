@@ -1,0 +1,26 @@
+name: CI/CD Flask App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Télécharger le code
+      uses: actions/checkout@v3
+
+    - name: Connexion Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+    - name: Build image
+      run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:latest .
+
+    - name: Push image
+      run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:latest
